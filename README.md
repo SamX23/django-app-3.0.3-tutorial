@@ -19,3 +19,10 @@
 - python manage.py migrate // to migrate again after changes
 - python manage.py shell // interactive django with env variable to plays with API
 - python manage.py createsuperuser // create admin
+- Finished - Customize, test and release.
+
+#Views or page
+- Question “index” page – displays the latest few questions.
+- Question “detail” page – displays a question text, with no results but with a form to vote.
+- Question “results” page – displays results for a particular question.
+- Vote action – handles voting for a particular choice in a particular question.
