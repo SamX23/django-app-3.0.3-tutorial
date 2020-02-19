@@ -32,8 +32,8 @@
 - python manage.py test (app)
 
 # Test a view
-- Python shell -
-> from django.test.utils import
+- Python shell
+ from django.test.utils import
  setup_test_environment
  setup_test_environment()
  from django.test import Client // create an instance of the client for our use
@@ -44,4 +44,4 @@
  response = client.get(reverse('(app):index'))
  response.status_code
  response.content
-> response.context['latest_question_list']
+ response.context['latest_question_list']
