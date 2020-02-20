@@ -60,9 +60,9 @@ $ python manage.py createsuperuser // create admin
 - create setup.cfg & setup.py
 - create MANIFET.in
 - Build the package (inside django-app directory)
-> python setup.py sdist
+$ python setup.py sdist
 
 # Install Package
 
-> python -m pip install --user django-polls/dist/django-polls-0.1.tar.gz
-> python -m pip uninstall django-polls #uninstall
+$ python -m pip install --user django-polls/dist/django-polls-0.1.tar.gz
+$ python -m pip uninstall django-polls #uninstall
