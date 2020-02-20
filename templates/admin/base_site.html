@@ -1,0 +1,10 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Polls Admin | {{ site_title|default:_('Django site admin') }}
+{% endblock %}
+
+{% block branding %}<h1 id="site-name"><a href="{% url 'admin:index' %}">Polls Admin Web</a></h1>
+{% endblock %}
+
+{% block nav-global %}
+{% endblock %}
